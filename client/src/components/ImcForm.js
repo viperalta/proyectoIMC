@@ -39,7 +39,7 @@ const PlayerForm = (props) => {
             }) =>{
         return (
             <div>
-                <h4>Agrega tu altura y tu peso para saber tu IMC</h4>
+                <h5>Agrega tu altura y tu peso para saber tu IMC</h5>
                 <Form className= "contact" method= "post" onSubmit={handleSubmit}>
                         <label htmlFor="altura" className="col-form-label">
                             Altura (cm)

@@ -25,7 +25,7 @@ const Header = () => {
                     <h3>Proyecto IMC</h3>
                     </span>
                     <span className="navbar-text">
-                    ¡Hola {user.firstName}! <button onClick={logOut} className='btn-secondary' >Cerrar Sesion</button>
+                    ¡Hola {user.firstName}! <button onClick={logOut} className='btn btn-secondary' >Cerrar Sesion</button>
                     </span>
                     </div>
                 </nav>
@@ -41,8 +41,8 @@ const Header = () => {
                     <Link to='/' className='nodecoration'><h3>Proyecto IMC</h3></Link>
                     </span>
                     <span className="navbar-text">
-                    <Link to='/register'><button className="btn-secondary m-1">Registrarse</button></Link>
-                    <Link to='/login'><button className="btn-primary">Iniciar Sesión</button></Link>
+                    <Link to='/register'><button className="btn btn-secondary m-1">Registrarse</button></Link>
+                    <Link to='/login'><button className="btn btn-primary">Iniciar Sesión</button></Link>
                     </span>
                     </div>
                 </nav>

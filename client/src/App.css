@@ -43,9 +43,28 @@ form{
 }
 
 form label{
-  margin-top:20px;
+  margin-top:0px;
 }
 
 .nodecoration{
   text-decoration: none;
+}
+
+.card{
+  margin-top: 1rem;
+}
+
+h5{
+  margin-top:.5rem;
+}
+p{
+  margin:0;
+}
+
+ul li{
+  font-size:12px
+}
+
+.hide {
+  display:none;
 }
