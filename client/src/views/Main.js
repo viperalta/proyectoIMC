@@ -298,7 +298,7 @@ const Main = () => {
       return (
         <>
           <div class="card portada">
-            <div class="card-body">Bienvenido/a al Proyecto IMC. En este sitio podrás calcular tu IMC,
+            <div class="card-body">Bienvenido/a al Proyecto IMC. En este sitio podrás calcular tu Índice de Masa Corporal (IMC),
             hacerle un seguimiento en el tiempo, y recibir recomendaciones
             respecto a tu salud!</div>
           </div>
