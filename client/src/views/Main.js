@@ -215,11 +215,7 @@ const Main = () => {
                       <>
                         <div className="card">
                           <div className="card-body">
-                            <h4
-                              className={`${
-                                hide ? "" : "hide"
-                              }`}
-                            >
+                            <h4 className={`${hide ? "" : "hide"}`}>
                               Informe IMC de {user.firstName} {user.lastName}{" "}
                             </h4>
                             <h5 className="card-title">
@@ -301,11 +297,12 @@ const Main = () => {
     } else {
       return (
         <>
-          <h4 className="mt-3">
-            Bienvenido/a al Proyecto IMC. En este sitio podrás calcular tu IMC,
+          <div class="card portada">
+            <div class="card-body">Bienvenido/a al Proyecto IMC. En este sitio podrás calcular tu IMC,
             hacerle un seguimiento en el tiempo, y recibir recomendaciones
-            respecto a tu salud!
-          </h4>
+            respecto a tu salud!</div>
+          </div>
+        
         </>
       );
     }

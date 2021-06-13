@@ -46,7 +46,7 @@ const LoginForm = (props) => {
         return (
             <div>
                 <h1>LOGIN</h1>
-                <Form className= "contact" method= "post" onSubmit={handleSubmit}>
+                <Form className= "contact auth" method= "post" onSubmit={handleSubmit}>
                          <label htmlFor="email" className="col-form-label">Correo Electrónico</label>
                          <Field id='email' type="text" placeholder="Email" className="form-control" name='email'/>
                          <ErrorMessage name="email">{(msg) => <p>{msg}</p>}</ErrorMessage>

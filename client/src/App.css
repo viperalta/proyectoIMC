@@ -1,3 +1,7 @@
+*{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
 .App {
   text-align: center;
 }
@@ -68,3 +72,21 @@ ul li{
 .hide {
   display:none;
 }
+
+.auth {
+  width:50%;
+  border:3px solid lightskyblue;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.portada{
+  width: 50%;
+  margin: 1rem auto;
+  
+}
+
+.portada .card-body{
+  font-size: 20px;
+}
+

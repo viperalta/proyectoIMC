@@ -3,6 +3,7 @@ import "./App.css";
 import LoginForm from "./components/LoginForm";
 import { UserProvider } from "./contexts/userContext";
 import All from "./views/All";
+import Footer from "./views/Footer";
 import Header from "./views/Header";
 import Login from "./views/Login";
 import Main from "./views/Main";
@@ -31,6 +32,8 @@ function App() {
               <Main />
             </Route>
           </Switch>
+
+          <Footer />
         </Router>
       </UserProvider>
     </div>
